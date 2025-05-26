@@ -81,8 +81,6 @@ print(stringOfJsonData)
 
 ### Get Location fro the command line argument
 
-APPID = '5c4340eb4730528df009beed9422343a'
-
 import json, requests, sys
 if len(sys.argv) < 2:
 	print('Usage: getOpenWeather.py city_name, 2-letter_country_code')
